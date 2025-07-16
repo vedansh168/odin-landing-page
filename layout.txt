@@ -1,0 +1,47 @@
+Instead of making a volleyball webpage, I want to make a haikyuu webpage.
+
+The information is pretty clear, very easy to think of. Plus I can have some fun with design too.
+
+-------------------HEADER----------------------------
+1) Haikyuu logo
+2) Links
+    - Haikyuu wiki
+    - Volleyball website link (same directory)
+    - Contact
+    (Can change later)
+
+3) Intro para to the anime
+4) Hinata photo
+
+---------------------VIDEO-------------------------
+1) Haikyuu edits compilation with catchy music
+
+----------------------INFORMATION-----------------------
+1) Karasuno Team info
+2) Hinata, Kageyama, Tsukki, Noya, Tanaka, Asahi, Daiichi, Suga, Yamaguchi, and the 3 second-years if space permits
+3) Managers: Kiyoko, Yamaguchi
+
+----------------------QUOTES--------------------------
+1) Say how this is the most uplifiting, inspirational thing I have seen in my life. 
+2) Some sweet quotes (add at least 5).
+3) The Oikawa quote, any hinata quote. Think rest later.
+
+-------------------------NEWSLETTER THING---------------------
+1) Pretty straightforward.
+
+
+CSS: 
+
+For this, I should research some gaming website templates on Wix, 
+as they are useful to figure out some sweet features 
+
+I think fixed background, scrolling sections, and images change as you scroll away.
+
+A dummy link with the ara ara gomen + rick roll. upload on youtube.
+
+Own colour theme and fonts
+
+Might make few tweaks to layout if needed. 
+
+Maybe short gifs of each character. Silly for some, serious for others. Their characteristic dialogue.
+
