@@ -1,0 +1,133 @@
+/*The design for body includes - 
+    - making it a flexbox, vertically oriented, to adjust elements in a scroll like manner
+    - removing default margin and padding
+    - setting the default font of the page*/
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header design is split into 3 parts - 
+    - The header box
+    - The logo image
+    - The navigation links*/
+
+/*The header css includes - 
+    - making it a flexbox to align items horizontally, and aligning apporpriately
+    - setting header color
+    - adding padding for spacing*/
+.header {
+    display: flex;
+    background-color: #141414;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+}
+
+/*This css for links - 
+    - removes the bullet points
+    - makes the points horizontally aligned
+    - padding and gap between points to arrange appropriately*/
+.header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 12px;
+}
+
+/*This css for anchor tags styles it by only adding underline when hover on it*/
+a {
+    text-decoration: none; 
+    color: white;  
+    position: relative; 
+}
+
+/*Small detour to add an animated underline effect. Only detour since I need to get on with the course.
+Can't stay here forever, tradeoff between curiosity, innovation and time*/
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff8b43;
+    left: 50%;
+    bottom: -2px;
+    transition: width 0.5s ease;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff8b43;
+    right: 50%;
+    bottom: -2px;
+    transition: width 0.5s ease;
+}
+
+a:hover::before {
+    width: 50%;
+}
+
+a:hover::after {
+    width: 50%;
+}
+
+.hero {
+    display: flex;
+    background-color: #303030;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 128px;
+    text-align: center; 
+    min-height: 445px;
+
+    background-image: url(haikyu-images/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* dark transparent overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* puts your content above the overlay */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content #hero-text {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 16px auto;
+}
+
+.hero-content #disclaimer {
+    font-size: 16px;
+    margin: 16px auto;
+
+    line-height: 1.5; /* improves readability */
+}
