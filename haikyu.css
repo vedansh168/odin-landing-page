@@ -229,20 +229,32 @@ a:hover::after {
 .video {
     display: flex;
     flex-direction: column;
-    min-height: 700px;
+    min-height: 600px;
     align-items: center;
-    background-color: #141414;
+    background-color: #303030;
     color: #ffffff;
 }
 
 .quotes {
-    background-color: #141414;
-    color: white;
+    padding: 32px 64px;
+    font-size: 20px;
+}
+
+.quotes blockquote {
+  font-style: italic;
+  font-size: 16px;
+  margin: 16px auto;
+  padding: 12px 24px;
+  max-width: 600px;
+  border-left: 4px solid #ff8b43;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #141414;
 }
 
 .call-to-action {
     padding: 64px 128px;
     color: white;
+    background-color: #303030;
 }
 
 .call-to-action .box {
