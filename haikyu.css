@@ -92,11 +92,11 @@ a:hover::after {
     justify-content: center;
     padding: 12px 128px;
     text-align: center; 
-    min-height: 445px;
+    min-height: 500px;
 
     background-image: url(haikyu-images/wallpaper.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative; 
@@ -121,7 +121,7 @@ a:hover::after {
 
 .hero-content #hero-text {
     font-size: 24px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 16px auto;
 }
 
@@ -130,4 +130,152 @@ a:hover::after {
     margin: 16px auto;
 
     line-height: 1.5; /* improves readability */
+}
+
+.information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    color: #ff7b00;
+    gap: 32px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+}
+
+.information h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.character-cards {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.character {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.character img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 2s ease;
+    transform-origin: center;
+    display: block;
+}
+
+.character:hover img {
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+
+.character::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.9s ease;
+    border-radius: 8px;
+    border: 6px solid #ff8b43;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white; 
+    padding: 0px 16px;
+}
+
+.character:hover::after {
+    opacity: 1;
+    border-radius: 8px;
+}
+
+#hinata::after {
+    content: "Shoyo Hinata, the ultimate decoy, is the smallest middle blocker of the series. This first-year has an AMAZING weapon though, his jump. The main character who discovers something amazing with Kageyama later.";
+}
+
+#kageyama::after {
+    content: "Kageyama Tobio, the genius first-year setter of the team. He can accurately make pinpoint tosses with the control of threading a needle. A genreational talent, awakened by Hinata Shoyo."
+}
+
+#tsukishima::after {
+    content: "Tsukishima Kei, the tallest player of the team and is a middle blocker. A clever player with a thorny attitude. Often looks down on Hinata, but is secretely scared of his growth. We are jealous because he is so tall and cool but is a first-year only."
+}
+
+#daichi::after {
+    content: "Daichi Sawamura, the cool-headed third-year captain of Karasuno with a burning-hot passion to win nationals. He is the foundation of the team and watches their backs as they aim to reach new heights. Also keeps the troublesome first-years in check. Inspiring and scary."
+}
+
+#nishinoya::after {
+    content: "Nishinoya Yu, the guardian deity of Karasuno. He plays libero, and never lets the ball touch the floor. Wild doesn't even begin to describe him, but on the court he is surprisingly quiet and focused. The cheerful mood-maker of the team."
+}
+
+#kiyoko::after {
+    content: "Kiyoko Shimizu, the most beautiful manager of Karasuno. She is famous in the volleyball community, but the Karasuno team guard her well from unwanted attraction. Very quiet and shy, but a motivational word from her can give the strength of a hundred men to the boys."
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    align-items: center;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.quotes {
+    background-color: #141414;
+    color: white;
+}
+
+.call-to-action {
+    padding: 64px 128px;
+    color: white;
+}
+
+.call-to-action .box {
+    flex: 1;
+    background-color: #ff7b00;
+    padding: 32px 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 12px;
+}
+
+.box button {
+    background-color: #ff7b00;
+    color: white;
+    border-radius: 3px;  
+    font-size: 16px; 
+    padding: 4px 16px;
+    height: 35px;
+    width: 95px;
+    border: 3px solid white;
+    border-radius: 12px;
+
+}
+
+button:active {
+    background-color: rgb(0, 100, 200);
+}
+
+.footer {
+    background-color: #141414;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 24px 0;
 }

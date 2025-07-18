@@ -115,7 +115,8 @@ img {
     font-size: 36px;
     color: #1f2937;
 
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    font-style: italic;
 }
 
 .quote .quoter {
