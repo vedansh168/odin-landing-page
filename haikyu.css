@@ -289,5 +289,10 @@ button:active {
     background-color: #141414;
     text-align: center;
     color: #e5e7eb;
-    padding: 24px 0;
+    padding: 0;
+}
+
+.footer .contact {
+    gap: 32px;
+    font-size: 24px;
 }
