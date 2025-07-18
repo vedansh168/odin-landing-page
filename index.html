@@ -1,94 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Volleyball Landing Page</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,250&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haikyuu!</title>
 
+    <link rel="stylesheet" href="haikyu.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
-        <div class="top">
-            <div class="header">
-                <div class="title">
-                    Volleyball
-                </div>
-                <ul class="links">
-                    <li><a href="https://www.theartofcoachingvolleyball.com/basic-volleyball-rules-and-terminology/" target="_blank">Rules</a></li>
-                    <li><a href="https://wikipedia.com" target="_blank">Positions</a></li>
-                    <li><a href="https://wikipedia.com" target="_blank">Contact</a></li>
-                </ul>
+</head>
+<body>
+    <!--Div for the top header section, contains logo of anime, and some links-->
+    <div class="header">
+        <!--Logo image-->
+        <img src="./haikyu-images/logo.png" alt="Haikyuu! Logo">
+
+        <!--Links ul-->
+        <ul> 
+            <li><a href="https://haikyuu.fandom.com/wiki/Haikyuu!!_Wiki" target="_blank">Wiki</a></li>
+            <li><a href="./volleyball.html" target="_blank">Volleyball Page</a></li>
+            <li><a href="#" target="_blank">Karasuno Fan Club</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Welcome to this Haikyuu fan page</h1>
+            <p id="hero-text">
+                Haikyuu is an inspirational shonen anime about volleyball, which follows the story of Hinata Shoyo, a die hard fan of volleyball
+                who is only 165 cm. In his first and last ever tournament in middle school, he got crushed by Kageyama Tobio, a genius setter who had everything Hinata didn't. Vowing to defeat him in high school,
+                Hinata heads to Karasuno, home of the famous Little Giant, Hinata's inspiration. And who should he see there, but Kageyama Tobio!
+                This then follows the story of how Karasuno changes with these 2 and multiple other players, and they navigate the tough waters of making it to nationals.  
+            </p>
+            <p id="disclaimer">Disclaimer: This is not associated with the official Haikyuu anime in any way. This is 
+                just a die-hard fan trying to level up his web dev skills by making a page for something he loves. If there is anything
+                that can be improved, please feel free to contact me. My details are below. Also, please please visit my volleyball page as well, that is my second landing page for this project.
+            </p>
+        </div>
+    </div>
+    
+    <div class="information">
+        <h2>Some beloved Karasuno players</h2>
+
+        <div class="character-cards">
+            <div id="hinata" class="character">
+                <img src="./haikyu-images/hinata.jpeg" alt="Shoyo Hinata">
             </div>
 
-            <div class="intro">
-                <div class="intro-text">
-                    <h1>The best sport on Earth!</h1>
-                    <p>
-                        Fight me on this — volleyball is hands down the greatest sport ever. It's not just about hitting a ball over a net. It's about split-second decision-making, incredible teamwork, unrelenting hustle, and gravity-defying athleticism. Few sports combine raw power and finesse the way volleyball does. Every play is a high-stakes puzzle where each player has a role — from the libero's lightning-fast digs to the setter's precise tosses and the spiker's thunderous kills.
-                    </p>
+            <div id="kageyama" class="character">
+                <img src="./haikyu-images/kageyama.jpeg" alt="Tobio Kageyama"> 
+            </div>
 
-                    <button type="button">Sign up</button>
-                    <button>Sign in</button>
-                </div>
+            <div id="tsukishima" class="character">
+                <img src="./haikyu-images/tsukishima.jpeg" alt="Kei Tsukishima">
+            </div>
 
-                <img class="intro-img" src="./images/volleyball.jpg" alt="The ball used in volleyball">
+            <div id="daichi" class="character">
+                <img src="./haikyu-images/daichi.jpeg" alt="Daichi Sawamura">
+            </div>
+
+            <div id="nishinoya" class="character">
+                <img src="./haikyu-images/nishinoya.jpeg" alt="Yuu Nishinoya">
+            </div>
+
+            <div id="kiyoko" class="character">
+                <img src="./haikyu-images/kiyoko.jpeg" alt="Kiyoko Shimizu">    
             </div>
         </div>
+    </div>
 
-        <div class="info">
-            <div class="info-header">The basic flow of a volleyball rally </div>
+    <div class="video">
+        <h1>AMAZING HAIKYUU TRAILER ALERT!!!!!</h1>  
+        <iframe width="800" height="500" 
+            src="https://www.youtube.com/embed/T5nHTuDT88g?si=jAAyr2IA8SUVEgwu" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
 
-            <div class="info-points">
-                <div class="point1">
-                    <img src="./images/serve.jpeg" alt="The ball is used in volleyball">
-                    <p>First the ball is served to the opposing team</p>
-                </div>
+    </div>
 
-                <div class="point2">
-                    <img src="images/receive.jpeg">
-                    <p>The ball is recieved by one of the players</p>
-                </div>
+<div class="quotes">
+  <p>
+    Apart from this just being a volleyball anime, it is also filled with many life lessons and wisdom. 
+    This anime actually helped me through some difficulties in life, because of the characters and their stories and the 
+    numerous tough situations we see the players face and overcome. I would like to share some of those quotes, which instill a lot of discipline and motivation in anyone. 
+  </p>
 
-                <div class="point3">
-                    <img src="images/set.jpeg">
-                    <p>The ball is set to a hitter then. Setting means raising the ball in such a way that it allows someone to hit it easily</p>
-                </div>
+  <blockquote>
+    “I may be small, but I can jump!”<br>
+    — <strong>Hinata Shoyo</strong>
+  </blockquote>
 
-                <div class="point4">
-                    <img src="images/spike.gif">
-                    <p>The ball is then spiked back into the opposing team's court</p>
-                </div>
+  <blockquote>
+    “Today might be the day we can finally beat them. Or maybe it's the day we lose. But there's only one thing that's certain... If we don’t challenge them, we’ll never win.”<br>
+    — <strong>Daichi Sawamura</strong>
+  </blockquote>
 
-                <div class="point5">
-                    <img src="images/block.jpeg">
-                    <p>Sometimes the spike scores a point, sometimes it gets blocked and sometimes it gets dug, which means someone on the back row was able to raise it up</p>
-                </div>
+  <blockquote>
+    “A challenge where after giving it your all you come out as the loser, it’s hard to call it a challenge.”<br>
+    — <strong>Korai Hoshiumi</strong>
+  </blockquote>
+
+  <blockquote>
+    “Talent is something you make bloom, instinct is something you polish.”<br>
+    — <strong>Toru Oikawa</strong>
+  </blockquote>
+
+  <blockquote>
+    “We’re not the protagonists of this world. Not all of us get to be the main character.”<br>
+    — <strong>Kenma Kozume</strong>
+  </blockquote>
+
+  <blockquote>
+    “There’s no guarantee that the weapon that worked first will continue working until the end.”<br>
+    — <strong>Kei Tsukishima</strong>
+  </blockquote>
+</div>
+
+
+    <div class="call-to-action">
+        <div class="box">
+            <div>
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for the the volleyball newsletter by clicking on this button.</p>
             </div>
-       </div>
+            <button>Sign up</button>
+        </div>
+    </div>
 
-       <div class="quote">
-            <p class="quote-text">
-                A lot of people notice when you succeed, but they don’t see what it takes to get there. Hard work, dedication, and constantly pushing yourself—that’s what volleyball teaches you.
-            </p>
-            <p class="quoter">- Kerri Walsh Jennings,</p>
-            <p class="quoter">3x Olympic Gold Medallist, Beach Volleyball, USA</p>
-       </div>
-
-       <div class="call-to-action">
-            <div class="box">
-                <div>
-                    <h2>Call to action! It's time!</h2>
-                    <p>Sign up for the the volleyball newsletter by clicking on this button.</p>
-                </div>
-                <button>Sign up</button>
-            </div>
-       </div>
-
-       <div class="footer">
-            Copyright &copy The Odin Project 2025
-       </div>
-    </body>
+    <div class="footer">
+        Copyright &copy Vedansh Balasaria
+    </div>
+</body>
 </html>
